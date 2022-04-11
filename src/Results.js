@@ -4,8 +4,8 @@ import './style.css';
 class Results extends Component{
     render(){
         return(
-            <div className='mx-2' >
-                <h1 className='text-green-500 text-sm'>To send/withdraw {}this amount from this provider, you need this amount as the transaction cost</h1>
+            <div className='mx-2 md:container md:w-1/2' >
+                <h1 className='text-green-500 text-sm md:text-lg'>To send/withdraw {}this amount from this provider, you need this amount as the transaction cost</h1>
             </div>
         );
     }
