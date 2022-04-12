@@ -1,14 +1,17 @@
-import React, { Component } from 'react';
-import './style.css';
+import React, { Component } from "react";
+import "./style.css";
 
-class Results extends Component{
-    render(){
-        return(
-            <div className='mx-2 md:container md:w-1/2' >
-                <h1 className='text-green-500 text-sm md:text-lg'>To send/withdraw {}this amount from this provider, you need this amount as the transaction cost</h1>
-            </div>
-        );
-    }
+class Results extends Component {
+  render() {
+    return (
+      <div className="flex flex-col  mx-auto w-3/4 my-10 border border-green-500 rounded p-2 bg-green-500 shadow shadow-2xl shadow-black">
+        <h1 className="text-black text-5xl">
+          To send/withdraw {}this amount from this provider, you need this
+          amount as the transaction cost
+        </h1>
+      </div>
+    );
+  }
 }
 
 export default Results;
